@@ -21,7 +21,7 @@ To build the image, simply invoke
 
 A prebuilt container is also available in the docker index
 
-    docker pull walm/base
+    docker pull walm/docker-base
 
 ## Author
 
