@@ -1,3 +1,7 @@
+#!/bin/bash
+set -e
+set -x
+
 echo "# Base setup"
 apt-get update -qq
 apt-get install -q -y wget curl
@@ -8,4 +12,4 @@ adduser --uid 9999 --gid 9999 --disabled-password --gecos "Application" app
 usermod -L app
 
 echo "# Cleaning up"
-apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /setup /build
