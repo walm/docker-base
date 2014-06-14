@@ -11,7 +11,7 @@ Sets up a container based on [phusion/baseimage](https://github.com/phusion/base
 
 To run the container, do the following:
 
-    docker run -d walm/docker-base
+    docker run -d walm/base
 
 ## Building
 
@@ -21,7 +21,7 @@ To build the image, simply invoke
 
 A prebuilt container is also available in the docker index
 
-    docker pull walm/docker-base
+    docker pull walm/base
 
 ## Author
 
